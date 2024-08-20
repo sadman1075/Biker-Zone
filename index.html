@@ -14,17 +14,28 @@
                     colors: {
                         clifford: '#da373d',
                         "bike-primary": "#264653",
-                        "button": "#E76F51"
+                        "button": "#E76F51",
+                        "gradient1": "rgba(24, 24, 24, 0.82)",
+                        "gradient2": "rgba(24, 24, 24, 0)"
+
                     }
                 }
             }
         }
     </script>
+    <style>
+        .sadman {
+            background: linear-gradient(to right, rgba(5, 5, 5, 0.82), rgba(24, 24, 24, 0)), url("./images/others/bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header class="bg-bike-primary  ">
+    <header class="sadman pb-60">
         <nav class="ml-4 mr-4 lg:mr-40 lg:ml-40">
             <div class="navbar">
                 <div class="navbar-start">
@@ -44,7 +55,7 @@
                             <li><a class="text-white font-bold text-lg">Contact</a></li>
                         </ul>
                     </div>
-
+                    <a class="btn btn-ghost text-white text-2xl font-bold">Go Ride</a>
                 </div>
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -60,27 +71,17 @@
             </div>
         </nav>
 
-        <div class="mt-2 pb-10 lg:mt-20 lg:pb-20">
-            <div class="hero ">
-                <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-                    <div class="w-full lg:w-1/2">
-                        <img src="./images/others/bike-bg.png" class=" rounded-lg " />
-
-                    </div>
-                    <div class="w-full lg:w-1/2">
-                        <p class="py-2 text-white">Computer-controlled digital transistorized with electronic advance
-                        </p>
-                        <h1 class="text-5xl text-white font-bold">Honda CBR 300R</h1>
-                        <p class="py-6 text-white">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                        <button class="btn bg-button border-none px-8 text-white">Purchase</button>
-                    </div>
-                </div>
+        <div class="mt-28 ml-4 mr-4 pb-10 lg:mt-48 lg:pb-20">
+            <div class="w-full lg:w-1/2 lg:ml-48">
+                <h1 class="text-5xl font-bold text-white ">Keep Your Ride Safe <br> At Every Time</h1>
+                <p class="text-white mt-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn bg-button border-none px-10 mt-8">Purchase</button>
             </div>
-
         </div>
+
+
+
     </header>
 
     <div>
@@ -236,7 +237,7 @@
         <div class="hero mt-20">
             <div class="hero-content flex-col lg:flex-row">
                 <div class="w-full lg:w-1/2">
-                    <img src="./images/others/Group.png" class="rounded-lg " />
+                    <img src="./images/others/faq.png" class="rounded-lg " />
                 </div>
                 <div class="w-full lg:w-1/2">
                     <div class="collapse collapse-arrow ">
